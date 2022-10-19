@@ -8,7 +8,7 @@ const Matrix = (props: Props) => {
     return Math.floor(Math.random() * max) + 1;
   }
 
-  // Correct values for Multiplication table
+  // Correct values for Multiplication table //
   const [matrix, setMatrix] = React.useState([
     [1, 2, 3, 4, 5, 6, 7, 8, 9], //1
     [2, 4, 6, 8, 10, 12, 14, 16, 18], //2
